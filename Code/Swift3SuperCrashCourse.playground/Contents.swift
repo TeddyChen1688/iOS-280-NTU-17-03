@@ -3,6 +3,7 @@ import Foundation
 
 //: ## Variables and Constants
 let constantA = 13.5
+
 let constantB = "Hello"
 
 var myString = "Apple"
@@ -175,14 +176,24 @@ sumOfTwoNumbers(a: 1, b: 2)
 func statisticsForNumbers(numbers: [Int]) -> (sum: Int, average: Double) {
     let sum = numbers.reduce(0) { $0 + $1 }
     let average = Double(sum) / Double(numbers.count)
-    
     return (sum, average)
 }
 
+let numbers = Array(1...6)
+let trial = numbers.reduce(0) { $0 + $1 }
 statisticsForNumbers(numbers: Array(1...5))
+
 
 let aClosure = { (number: Int) -> Int in
     return number * 2
 }
 
 aClosure(15)
+
+func aFunc(p: Int, r: Int ) -> (Int) {
+    let q = p * 2
+    return q
+    }
+
+aFunc(p: 3,r: 5)
+
