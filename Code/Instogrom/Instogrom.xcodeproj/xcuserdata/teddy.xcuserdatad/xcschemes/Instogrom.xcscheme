@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "9F61BBE01E893A54000CFB90"
+               BlueprintIdentifier = "5FE4621C1E89182300FC5801"
                BuildableName = "Instogrom.app"
                BlueprintName = "Instogrom"
                ReferencedContainer = "container:Instogrom.xcodeproj">
@@ -32,7 +32,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "9F61BBE01E893A54000CFB90"
+            BlueprintIdentifier = "5FE4621C1E89182300FC5801"
             BuildableName = "Instogrom.app"
             BlueprintName = "Instogrom"
             ReferencedContainer = "container:Instogrom.xcodeproj">
@@ -55,12 +55,17 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "9F61BBE01E893A54000CFB90"
+            BlueprintIdentifier = "5FE4621C1E89182300FC5801"
             BuildableName = "Instogrom.app"
             BlueprintName = "Instogrom"
             ReferencedContainer = "container:Instogrom.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
+      <EnvironmentVariables>
+         <EnvironmentVariable
+            isEnabled = "NO">
+         </EnvironmentVariable>
+      </EnvironmentVariables>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -74,7 +79,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "9F61BBE01E893A54000CFB90"
+            BlueprintIdentifier = "5FE4621C1E89182300FC5801"
             BuildableName = "Instogrom.app"
             BlueprintName = "Instogrom"
             ReferencedContainer = "container:Instogrom.xcodeproj">

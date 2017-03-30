@@ -7,59 +7,92 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		9F61BBE51E893A54000CFB90 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F61BBE41E893A54000CFB90 /* AppDelegate.swift */; };
-		9F61BBE71E893A54000CFB90 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F61BBE61E893A54000CFB90 /* ViewController.swift */; };
-		9F61BBEA1E893A54000CFB90 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F61BBE81E893A54000CFB90 /* Main.storyboard */; };
-		9F61BBEC1E893A54000CFB90 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F61BBEB1E893A54000CFB90 /* Assets.xcassets */; };
-		9F61BBEF1E893A54000CFB90 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F61BBED1E893A54000CFB90 /* LaunchScreen.storyboard */; };
+		5FE462211E89182300FC5801 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FE462201E89182300FC5801 /* AppDelegate.swift */; };
+		5FE462261E89182300FC5801 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5FE462241E89182300FC5801 /* Main.storyboard */; };
+		5FE462281E89182300FC5801 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5FE462271E89182300FC5801 /* Assets.xcassets */; };
+		5FE4622B1E89182300FC5801 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5FE462291E89182300FC5801 /* LaunchScreen.storyboard */; };
+		9F962AD21E8C0DA80071C5DC /* signInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F962AD11E8C0DA80071C5DC /* signInViewController.swift */; };
+		9F962AD41E8C19EA0071C5DC /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9F962AD31E8C19EA0071C5DC /* GoogleService-Info.plist */; };
+		9F962AD61E8C23F00071C5DC /* signUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F962AD51E8C23F00071C5DC /* signUpViewController.swift */; };
+		9F962AD81E8CA44D0071C5DC /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F962AD71E8CA44D0071C5DC /* MainViewController.swift */; };
+		BC32CC52F65193CF68175230 /* Pods_Instogrom.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46A3C9B2523FAF70DD8D4FFF /* Pods_Instogrom.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		9F61BBE11E893A54000CFB90 /* Instogrom.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Instogrom.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		9F61BBE41E893A54000CFB90 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		9F61BBE61E893A54000CFB90 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		9F61BBE91E893A54000CFB90 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		9F61BBEB1E893A54000CFB90 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		9F61BBEE1E893A54000CFB90 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		9F61BBF01E893A54000CFB90 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0EA581038CAB3B645BD8D0B7 /* Pods-Instogrom.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Instogrom.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Instogrom/Pods-Instogrom.debug.xcconfig"; sourceTree = "<group>"; };
+		46A3C9B2523FAF70DD8D4FFF /* Pods_Instogrom.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Instogrom.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5FE4621D1E89182300FC5801 /* Instogrom.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Instogrom.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5FE462201E89182300FC5801 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5FE462251E89182300FC5801 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5FE462271E89182300FC5801 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5FE4622A1E89182300FC5801 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5FE4622C1E89182300FC5801 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7CEEB604C5072B8A6B3999E4 /* Pods-Instogrom.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Instogrom.release.xcconfig"; path = "Pods/Target Support Files/Pods-Instogrom/Pods-Instogrom.release.xcconfig"; sourceTree = "<group>"; };
+		9F962AD11E8C0DA80071C5DC /* signInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = signInViewController.swift; sourceTree = "<group>"; };
+		9F962AD31E8C19EA0071C5DC /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		9F962AD51E8C23F00071C5DC /* signUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = signUpViewController.swift; sourceTree = "<group>"; };
+		9F962AD71E8CA44D0071C5DC /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		9F61BBDE1E893A54000CFB90 /* Frameworks */ = {
+		5FE4621A1E89182300FC5801 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BC32CC52F65193CF68175230 /* Pods_Instogrom.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		9F61BBD81E893A54000CFB90 = {
+		0C4E2E5A8CDC1DCF2836758C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				9F61BBE31E893A54000CFB90 /* Instogrom */,
-				9F61BBE21E893A54000CFB90 /* Products */,
+				46A3C9B2523FAF70DD8D4FFF /* Pods_Instogrom.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5309731CEB5916D36AF9B046 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0EA581038CAB3B645BD8D0B7 /* Pods-Instogrom.debug.xcconfig */,
+				7CEEB604C5072B8A6B3999E4 /* Pods-Instogrom.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		5FE462141E89182300FC5801 = {
+			isa = PBXGroup;
+			children = (
+				5FE4621F1E89182300FC5801 /* Instogrom */,
+				5FE4621E1E89182300FC5801 /* Products */,
+				5309731CEB5916D36AF9B046 /* Pods */,
+				0C4E2E5A8CDC1DCF2836758C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
-		9F61BBE21E893A54000CFB90 /* Products */ = {
+		5FE4621E1E89182300FC5801 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				9F61BBE11E893A54000CFB90 /* Instogrom.app */,
+				5FE4621D1E89182300FC5801 /* Instogrom.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		9F61BBE31E893A54000CFB90 /* Instogrom */ = {
+		5FE4621F1E89182300FC5801 /* Instogrom */ = {
 			isa = PBXGroup;
 			children = (
-				9F61BBE41E893A54000CFB90 /* AppDelegate.swift */,
-				9F61BBE61E893A54000CFB90 /* ViewController.swift */,
-				9F61BBE81E893A54000CFB90 /* Main.storyboard */,
-				9F61BBEB1E893A54000CFB90 /* Assets.xcassets */,
-				9F61BBED1E893A54000CFB90 /* LaunchScreen.storyboard */,
-				9F61BBF01E893A54000CFB90 /* Info.plist */,
+				5FE462201E89182300FC5801 /* AppDelegate.swift */,
+				9F962AD71E8CA44D0071C5DC /* MainViewController.swift */,
+				9F962AD11E8C0DA80071C5DC /* signInViewController.swift */,
+				9F962AD51E8C23F00071C5DC /* signUpViewController.swift */,
+				5FE462241E89182300FC5801 /* Main.storyboard */,
+				5FE462271E89182300FC5801 /* Assets.xcassets */,
+				5FE462291E89182300FC5801 /* LaunchScreen.storyboard */,
+				9F962AD31E8C19EA0071C5DC /* GoogleService-Info.plist */,
+				5FE4622C1E89182300FC5801 /* Info.plist */,
 			);
 			path = Instogrom;
 			sourceTree = "<group>";
@@ -67,13 +100,16 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		9F61BBE01E893A54000CFB90 /* Instogrom */ = {
+		5FE4621C1E89182300FC5801 /* Instogrom */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9F61BBF31E893A54000CFB90 /* Build configuration list for PBXNativeTarget "Instogrom" */;
+			buildConfigurationList = 5FE4622F1E89182300FC5801 /* Build configuration list for PBXNativeTarget "Instogrom" */;
 			buildPhases = (
-				9F61BBDD1E893A54000CFB90 /* Sources */,
-				9F61BBDE1E893A54000CFB90 /* Frameworks */,
-				9F61BBDF1E893A54000CFB90 /* Resources */,
+				C534C83E3368763E6E78D543 /* [CP] Check Pods Manifest.lock */,
+				5FE462191E89182300FC5801 /* Sources */,
+				5FE4621A1E89182300FC5801 /* Frameworks */,
+				5FE4621B1E89182300FC5801 /* Resources */,
+				7CF4A7C5B40051D6800B5246 /* [CP] Embed Pods Frameworks */,
+				D2E75B0A156231805B471377 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -81,26 +117,26 @@
 			);
 			name = Instogrom;
 			productName = Instogrom;
-			productReference = 9F61BBE11E893A54000CFB90 /* Instogrom.app */;
+			productReference = 5FE4621D1E89182300FC5801 /* Instogrom.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		9F61BBD91E893A54000CFB90 /* Project object */ = {
+		5FE462151E89182300FC5801 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0820;
 				LastUpgradeCheck = 0820;
-				ORGANIZATIONNAME = "Teddy Chen";
+				ORGANIZATIONNAME = "Denny Tsai";
 				TargetAttributes = {
-					9F61BBE01E893A54000CFB90 = {
+					5FE4621C1E89182300FC5801 = {
 						CreatedOnToolsVersion = 8.2.1;
 						ProvisioningStyle = Automatic;
 					};
 				};
 			};
-			buildConfigurationList = 9F61BBDC1E893A54000CFB90 /* Build configuration list for PBXProject "Instogrom" */;
+			buildConfigurationList = 5FE462181E89182300FC5801 /* Build configuration list for PBXProject "Instogrom" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -108,54 +144,105 @@
 				en,
 				Base,
 			);
-			mainGroup = 9F61BBD81E893A54000CFB90;
-			productRefGroup = 9F61BBE21E893A54000CFB90 /* Products */;
+			mainGroup = 5FE462141E89182300FC5801;
+			productRefGroup = 5FE4621E1E89182300FC5801 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				9F61BBE01E893A54000CFB90 /* Instogrom */,
+				5FE4621C1E89182300FC5801 /* Instogrom */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		9F61BBDF1E893A54000CFB90 /* Resources */ = {
+		5FE4621B1E89182300FC5801 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9F61BBEF1E893A54000CFB90 /* LaunchScreen.storyboard in Resources */,
-				9F61BBEC1E893A54000CFB90 /* Assets.xcassets in Resources */,
-				9F61BBEA1E893A54000CFB90 /* Main.storyboard in Resources */,
+				5FE4622B1E89182300FC5801 /* LaunchScreen.storyboard in Resources */,
+				9F962AD41E8C19EA0071C5DC /* GoogleService-Info.plist in Resources */,
+				5FE462281E89182300FC5801 /* Assets.xcassets in Resources */,
+				5FE462261E89182300FC5801 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		7CF4A7C5B40051D6800B5246 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Instogrom/Pods-Instogrom-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C534C83E3368763E6E78D543 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D2E75B0A156231805B471377 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Instogrom/Pods-Instogrom-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
-		9F61BBDD1E893A54000CFB90 /* Sources */ = {
+		5FE462191E89182300FC5801 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9F61BBE71E893A54000CFB90 /* ViewController.swift in Sources */,
-				9F61BBE51E893A54000CFB90 /* AppDelegate.swift in Sources */,
+				9F962AD21E8C0DA80071C5DC /* signInViewController.swift in Sources */,
+				5FE462211E89182300FC5801 /* AppDelegate.swift in Sources */,
+				9F962AD61E8C23F00071C5DC /* signUpViewController.swift in Sources */,
+				9F962AD81E8CA44D0071C5DC /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		9F61BBE81E893A54000CFB90 /* Main.storyboard */ = {
+		5FE462241E89182300FC5801 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				9F61BBE91E893A54000CFB90 /* Base */,
+				5FE462251E89182300FC5801 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		9F61BBED1E893A54000CFB90 /* LaunchScreen.storyboard */ = {
+		5FE462291E89182300FC5801 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				9F61BBEE1E893A54000CFB90 /* Base */,
+				5FE4622A1E89182300FC5801 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -163,7 +250,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		9F61BBF11E893A54000CFB90 /* Debug */ = {
+		5FE4622D1E89182300FC5801 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -212,7 +299,7 @@
 			};
 			name = Debug;
 		};
-		9F61BBF21E893A54000CFB90 /* Release */ = {
+		5FE4622E1E89182300FC5801 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -254,8 +341,9 @@
 			};
 			name = Release;
 		};
-		9F61BBF41E893A54000CFB90 /* Debug */ = {
+		5FE462301E89182300FC5801 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0EA581038CAB3B645BD8D0B7 /* Pods-Instogrom.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = "";
@@ -268,8 +356,9 @@
 			};
 			name = Debug;
 		};
-		9F61BBF51E893A54000CFB90 /* Release */ = {
+		5FE462311E89182300FC5801 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7CEEB604C5072B8A6B3999E4 /* Pods-Instogrom.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = "";
@@ -285,24 +374,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		9F61BBDC1E893A54000CFB90 /* Build configuration list for PBXProject "Instogrom" */ = {
+		5FE462181E89182300FC5801 /* Build configuration list for PBXProject "Instogrom" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9F61BBF11E893A54000CFB90 /* Debug */,
-				9F61BBF21E893A54000CFB90 /* Release */,
+				5FE4622D1E89182300FC5801 /* Debug */,
+				5FE4622E1E89182300FC5801 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9F61BBF31E893A54000CFB90 /* Build configuration list for PBXNativeTarget "Instogrom" */ = {
+		5FE4622F1E89182300FC5801 /* Build configuration list for PBXNativeTarget "Instogrom" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9F61BBF41E893A54000CFB90 /* Debug */,
-				9F61BBF51E893A54000CFB90 /* Release */,
+				5FE462301E89182300FC5801 /* Debug */,
+				5FE462311E89182300FC5801 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 9F61BBD91E893A54000CFB90 /* Project object */;
+	rootObject = 5FE462151E89182300FC5801 /* Project object */;
 }

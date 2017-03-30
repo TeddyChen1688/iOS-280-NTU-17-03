@@ -2,12 +2,12 @@
 //  AppDelegate.swift
 //  Instogrom
 //
-//  Created by Teddy on 2017/3/27.
-//  Copyright © 2017年 Teddy Chen. All rights reserved.
+//  Created by Denny Tsai on 2017/03/27.
+//  Copyright © 2017 Denny Tsai. All rights reserved.
 //
 
 import UIKit
-
+import Firebase
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -17,6 +17,26 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        
+        FIRApp.configure()
+        
+        let storyboard = UIStoryboard(name: "Main", bundle: Bundle.main)
+        
+        print("\(storyboard)")
+    
+        
+        FIRAuth.auth()?.addStateDidChangeListener{ auth, user in
+            if let user = user {
+                print("使用者已經登入: \(user.email)")
+                let viewController = storyboard.instantiateViewController(withIdentifier: "MainFlow")
+                self.window?.rootViewController = viewController
+            }
+            else{
+                print("沒有使用者登入!!")
+                let viewController = storyboard.instantiateViewController(withIdentifier: "SigninFlow")
+                self.window?.rootViewController = viewController
+            }
+        }
         return true
     }
 
