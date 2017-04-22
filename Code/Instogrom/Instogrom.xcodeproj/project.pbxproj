@@ -11,10 +11,12 @@
 		5FE462261E89182300FC5801 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5FE462241E89182300FC5801 /* Main.storyboard */; };
 		5FE462281E89182300FC5801 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5FE462271E89182300FC5801 /* Assets.xcassets */; };
 		5FE4622B1E89182300FC5801 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5FE462291E89182300FC5801 /* LaunchScreen.storyboard */; };
+		9F1EA23A1E966D16006E312F /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F1EA2391E966D16006E312F /* PostCell.swift */; };
 		9F962AD21E8C0DA80071C5DC /* signInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F962AD11E8C0DA80071C5DC /* signInViewController.swift */; };
 		9F962AD41E8C19EA0071C5DC /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9F962AD31E8C19EA0071C5DC /* GoogleService-Info.plist */; };
 		9F962AD61E8C23F00071C5DC /* signUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F962AD51E8C23F00071C5DC /* signUpViewController.swift */; };
 		9F962AD81E8CA44D0071C5DC /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F962AD71E8CA44D0071C5DC /* MainViewController.swift */; };
+		9F9B92121E8D3340001BFCB3 /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F9B92111E8D3340001BFCB3 /* FeedViewController.swift */; };
 		BC32CC52F65193CF68175230 /* Pods_Instogrom.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46A3C9B2523FAF70DD8D4FFF /* Pods_Instogrom.framework */; };
 /* End PBXBuildFile section */
 
@@ -28,10 +30,12 @@
 		5FE4622A1E89182300FC5801 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5FE4622C1E89182300FC5801 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7CEEB604C5072B8A6B3999E4 /* Pods-Instogrom.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Instogrom.release.xcconfig"; path = "Pods/Target Support Files/Pods-Instogrom/Pods-Instogrom.release.xcconfig"; sourceTree = "<group>"; };
+		9F1EA2391E966D16006E312F /* PostCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
 		9F962AD11E8C0DA80071C5DC /* signInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = signInViewController.swift; sourceTree = "<group>"; };
 		9F962AD31E8C19EA0071C5DC /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		9F962AD51E8C23F00071C5DC /* signUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = signUpViewController.swift; sourceTree = "<group>"; };
 		9F962AD71E8CA44D0071C5DC /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		9F9B92111E8D3340001BFCB3 /* FeedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,7 +90,9 @@
 			children = (
 				5FE462201E89182300FC5801 /* AppDelegate.swift */,
 				9F962AD71E8CA44D0071C5DC /* MainViewController.swift */,
+				9F9B92111E8D3340001BFCB3 /* FeedViewController.swift */,
 				9F962AD11E8C0DA80071C5DC /* signInViewController.swift */,
+				9F1EA2391E966D16006E312F /* PostCell.swift */,
 				9F962AD51E8C23F00071C5DC /* signUpViewController.swift */,
 				5FE462241E89182300FC5801 /* Main.storyboard */,
 				5FE462271E89182300FC5801 /* Assets.xcassets */,
@@ -132,6 +138,7 @@
 				TargetAttributes = {
 					5FE4621C1E89182300FC5801 = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 6394V6UJJX;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -223,8 +230,10 @@
 			files = (
 				9F962AD21E8C0DA80071C5DC /* signInViewController.swift in Sources */,
 				5FE462211E89182300FC5801 /* AppDelegate.swift in Sources */,
+				9F9B92121E8D3340001BFCB3 /* FeedViewController.swift in Sources */,
 				9F962AD61E8C23F00071C5DC /* signUpViewController.swift in Sources */,
 				9F962AD81E8CA44D0071C5DC /* MainViewController.swift in Sources */,
+				9F1EA23A1E966D16006E312F /* PostCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -346,12 +355,14 @@
 			baseConfigurationReference = 0EA581038CAB3B645BD8D0B7 /* Pods-Instogrom.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 6394V6UJJX;
 				INFOPLIST_FILE = Instogrom/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = io.hpd.iosdev.ios280.Instogrom;
+				PRODUCT_BUNDLE_IDENTIFIER = io.hpd.iosdev.ios280.Instogrom12;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -361,12 +372,14 @@
 			baseConfigurationReference = 7CEEB604C5072B8A6B3999E4 /* Pods-Instogrom.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 6394V6UJJX;
 				INFOPLIST_FILE = Instogrom/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = io.hpd.iosdev.ios280.Instogrom;
+				PRODUCT_BUNDLE_IDENTIFIER = io.hpd.iosdev.ios280.Instogrom12;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;

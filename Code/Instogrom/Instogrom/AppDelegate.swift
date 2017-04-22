@@ -7,7 +7,7 @@
 //
 
 import UIKit
-import Firebase
+import Firebase // 取得 Firebase 函式
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -18,7 +18,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
         
-        FIRApp.configure()
+        FIRApp.configure() // AppleDelegate 是 App 的切入點, 故在此導入第三方函式庫 Firebase
+        
+        // 設定可切換之 storyboard 變數,Listener 根據在現有無 user, 決定指向 MainFlow, 或是 SignInFlow
         
         let storyboard = UIStoryboard(name: "Main", bundle: Bundle.main)
         

@@ -34,7 +34,7 @@ class Article {  // 把 App 用到的資料包裝成查表(Model Class), No Acio
         
         let publishedDateMS = rawData["publishedDate"] as! Double
         publishedDate = Date(timeIntervalSince1970: publishedDateMS / 1000)
-        print("\(publishedDate)")
+        // print("\(publishedDate)")
         // 2017-03-26 06:42:00 +0000
        
         let urlString = rawData["url"] as! String

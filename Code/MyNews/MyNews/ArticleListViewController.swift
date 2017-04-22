@@ -53,10 +53,16 @@ class ArticleListViewController: UITableViewController {
         
         return cell
     }
+//    @IBAction func refreshPulled(_ sender: Any) {
+//        print("update")
+        // downloadLatestArticles()
+//    }
+    
     @IBAction func refreshPulled(_ sender: Any) {
-        // print("update")
+        print("updating.....")
         downloadLatestArticles()
     }
+    
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         
         if segue.identifier == "showArticleDetail" {
